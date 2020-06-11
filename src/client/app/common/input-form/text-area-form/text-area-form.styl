@@ -1,0 +1,31 @@
+.text-area-sl{
+  width 100%;
+  margin-bottom 20px;
+  .control-label-sl{
+    font-weight 600;
+    margin-bottom 8px;
+  }
+  .form-control-sl {
+    resize vertical
+    min-height 50px;
+    display block;
+    width 100%;
+    outline none ;
+    color #646464;
+    border 1px solid #b9b9b9;
+    &:focus{
+      border 1px solid #00b1ff;
+    }
+    border-radius 5px;
+    padding 10px 15px;
+    &.is-invalid{
+      border 1px solid red;
+    }
+  }
+
+  .error-text {
+    color red;
+    font-size 12px;
+    position absolute;
+  }
+}
